@@ -1,0 +1,38 @@
+/* Styling the Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Element Selector */
+h1 {
+    color: navy;
+    text-transform: uppercase;
+}
+
+/* Class Selector */
+.introduction {
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* ID Selector */
+#selectors {
+    background-color: lightgreen;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Grouping Selector */
+h2, p {
+    color: darkslategray;
+}
+
+/* Pseudo-class Selector */
+button:hover {
+    background-color: orange;
+    color: white;
+}

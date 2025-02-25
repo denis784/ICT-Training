@@ -1,0 +1,32 @@
+/* Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Element Selector */
+h1 {
+    color: blue;
+}
+
+/* Class Selector */
+.intro {
+    color: green;
+    font-weight: bold;
+}
+
+/* ID Selector */
+#main-heading {
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Descendant Selector */
+.container p {
+    color: purple;
+}
+
+/* Pseudo-Class */
+button:hover {
+    background-color: darkblue;
+    color: white;
+}
